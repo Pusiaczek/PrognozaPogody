@@ -1,0 +1,21 @@
+.weather-station {
+    border: 2px darkgray solid;
+    width: 19%;
+    margin: 0.5%
+}
+
+.weather-station:hover {
+    background-color: lightblue;
+    border: 2px azure solid;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px lightgray;    
+}
+
+.weather-station__desc {
+
+}
+
+.weather-station__data {
+    font-weight: 600;
+
+}

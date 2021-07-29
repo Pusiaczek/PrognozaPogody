@@ -1,0 +1,44 @@
+.weather-details {
+    position: fixed;
+    border: lightgreen 2px solid;
+    background-color: rgba(45, 56, 122, 0.9);
+    display: block;
+    /* padding: 10px 150px; */
+
+    width: 40vw;
+    height: 40vh;
+
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.weather-details__inner {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.weather-details__close {
+    position: absolute;
+    display: block;
+    color: white;
+    font-size: 3rem;
+    right: 25px;
+    top: 5px;
+    
+}
+
+.weather-details__close:hover {
+    cursor: pointer;
+    color: tomato;
+}
+
+.weather-details p {
+    margin: 0;
+    font-size: 1.5rem;
+    color: whitesmoke;
+}
